@@ -1,0 +1,12 @@
+1
+likes(John,Peanuts)
+9
+~food(x) | likes(John,x)
+food(Apple)
+food(vegetables)
+~eats(y,z) | killed(y) | food(z)
+eats(Anil,Peanuts)
+alive(Anil)
+~eats(Anil,w) | eats(Harry,w)
+killed(g) | alive(g)
+~alive(k) | ~killed(k)
